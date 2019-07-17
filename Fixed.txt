@@ -1,0 +1,23 @@
+#blind & classical sql injection
+
++cara 1
+mysql_real_escape_string($var)
+https://belajarphp.net/tutorial-mengatasi-serangan-sql-injection/
+
++cara 2
+mysqli_real_escape_string($conn, $var)
+http://fosti.ums.ac.id/blog/bagaimana-cara-mengatasi-dan-mencegah-sql-injection-di-website-1523895335
+
+#syntax sql (rapih dalam menulis sql)
++ select .. from .. where id = '$id' 
+- select .. from .. where id = $id
+
+#XSS (Crossite Site Scripting)
+htmlspecialchars($text, ENT_QUOTES)
+https://www.dumetschool.com/blog/Cara-Mencegah-XSS-Attack-Pada-PHP
+
+#FILES UPLOAD
++ Validasi di form input files
+  accept="image/*" accept="audio/*" accept="video/*"
++ Validasi di sisi server
+https://phppot.com/php/php-image-upload-with-size-type-dimension-validation/

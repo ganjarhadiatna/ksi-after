@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	outline: none;
+}
+html {
+	background-color: #f0f0f0;
+}
+
+.bdr-bottom {
+	border-bottom: 1px rgba(0,0,0,0.1) solid;
+}
+
+.col-full {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.btn {
+	position: relative;
+	height: 45px;
+	padding: 0 15px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+}
+.btn-circle {
+	width: 45px;
+	padding: 0 0;
+	border-radius: 100%;
+}
+.btn-main-color {
+	background-color: #2980b9;
+	color: #fff;
+	box-shadow: 0 0 0 1px #2980b9;
+}
+.btn-primary-color {
+	background-color: #fff;
+	color: rgba(0,0,0,0.84);
+}
+.btn-sekunder-color {
+	background-color: #fff;
+	color: #2980b9;
+	box-shadow: 0 0 0 1px #2980b9;
+}
+.btn-bebas-color {
+	background-color: #009a9a;
+	color: #fff;
+}
+.btn-disewa-color {
+	background-color: #9a0000;
+	color: #fff;
+}
+
+.select {
+	position: relative;
+	min-width: 100px;
+	padding: 0 15px;
+	height: 45px;
+	font-size: 14px;
+	background-color: #fff;
+	border: 1px rgba(0,0,0,0.1) solid;
+}
+.select:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.editable {
+	min-height: 50px;
+	max-height: 200px;
+	max-width: 95%;
+	min-width: 95%;
+	width: 100%;
+	padding: 2.5%;
+	overflow-y: auto;
+	border-radius: 3px;
+}
+
+.maincolor {
+	color: #2980b9;
+}
+
+.txt {
+	position: relative;
+	width: calc(100% - 30px);
+	padding: 0 15px;
+	height: 45px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.txt.txt-main-color {
+	background-color: #fff;
+	color: #555;
+	border: 1px rgba(0,0,0,0.1) solid;
+}
+.txt.txt-main-color:focus {
+	background-color: #f0f0f0;
+}
+.txt[type="text"]:disabled {
+	background-color: #f0f0f0;
+}
+.editable {
+	padding: 15px;
+	min-height: 45px;
+	height: auto;
+}
+
+.padding-bottom {
+	padding: 20px 0;
+}
+.pad-bot-5px {
+	padding-bottom: 5px;
+}
+.pad-bot-10px {
+	padding-bottom: 10px;
+}
+.pad-bot-15px {
+	padding-bottom: 15px;
+}
+.pad-bot-20px {
+	padding-bottom: 20px;
+}
+
+#alert {
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	display: none;
+}
+#alert #message {
+	color: #ff0000;
+}
+
+#input-validation-message-box p {
+	display: block;
+	border-radius: 4px;
+	background-color: #d88787;
+	padding: 15px;
+	box-sizing: border-box;
+	color: white;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}

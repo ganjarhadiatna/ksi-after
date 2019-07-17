@@ -1,0 +1,42 @@
+.frame-sign {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		     -o-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+
+	width: 350px;
+	background-color: #fff;
+	color: #555;
+	/*box-shadow: 0 10px 30px rgba(0,0,0,0.2);*/
+	border: 1px rgba(0,0,0,0.1) solid;
+	border-radius: 10px;
+	
+	padding: 25px 25px;
+}
+.frame-sign .top {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.frame-sign .mid {
+	padding-bottom: 20px;
+}
+.frame-sign .mid .sig-block {
+	margin-bottom: 15px;
+}
+.frame-sign .mid .sig-block p {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.frame-sign .mid .sig-block .btn {
+	width: 100%;
+}
+.frame-sign .bot {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 14px;
+}

